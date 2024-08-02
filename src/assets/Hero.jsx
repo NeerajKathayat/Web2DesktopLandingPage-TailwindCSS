@@ -229,13 +229,25 @@ const Hero = () => {
                             <img className='w-12 h-12 md:w-16 md:h-16' src={asset26} alt="" />
                             <p className='text-sm lg:text-[16px] font-semibold'>Webstudio</p>
                         </div>
+                        <div className='flex flex-col gap-2 items-center bg-white border-[1.5px] border-gray-300 rounded-xl justify-center  min-w-24 min-h-24  md:min-w-32 md:min-h-32'>
+                            <img className='w-12 h-12 md:w-16 md:h-16' src={asset15} alt="" />
+                            <p className='text-sm lg:text-[16px] font-semibold'>LifeAt</p>
+                        </div>
+                        <div className='flex flex-col gap-2 items-center bg-white border-[1.5px] border-gray-300 rounded-xl justify-center  min-w-24 min-h-24  md:min-w-32 md:min-h-32'>
+                            <img className='w-12 h-12 md:w-16 md:h-16' src={asset16} alt="" />
+                            <p className='text-sm lg:text-[16px] font-semibold'>LifeAt</p>
+                        </div>
+                        <div className='flex flex-col gap-2 items-center bg-white border-[1.5px] border-gray-300 rounded-xl justify-center  min-w-24 min-h-24  md:min-w-32 md:min-h-32'>
+                            <img className='w-12 h-12 md:w-16 md:h-16' src={asset17} alt="" />
+                            <p className='text-sm lg:text-[16px] font-semibold'>LifeAt</p>
+                        </div>
 
                     </div>
 
 
 
 
-                    <div ref={line3Ref} className='flex gap-4 -translate-x-48 transition-transform ease-linear'>
+                    <div ref={line3Ref} className='flex gap-4 md:hidden -translate-x-48 transition-transform ease-linear'>
                         <div className='flex flex-col gap-2 items-center bg-white border-[1.5px] border-gray-300 rounded-xl justify-center  min-w-24 min-h-24  md:min-w-32 md:min-h-32'>
                             <img className='w-12 h-12 md:w-16 md:h-16' src={asset15} alt="" />
                             <p className='text-sm lg:text-[16px] font-semibold'>LifeAt</p>
